@@ -55,3 +55,5 @@ Acknowledgments
 "Dualshock 4 Layout" design by Tokyoship of Wikimedia Commons, licensed under Creative Commons By Attributation 3.0, modified by Bluebie to be more easily puppeted. All modifications to this image are released under the same license. Original image: http://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg#mediaviewer/File:Dualshock_4_Layout.svg
 
 DualShock HID Parser by ehd (github) aka @evilhackerdude (twitter), released under MIT license. This work is the basis of the sony_controller.coffee local module, which is also made available under MIT license, as well as any other project licenses.
+
+<iframe data-aa='498465' src='//ad.a-ads.com/498465?size=120x60' scrolling='no' style='width:120px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
