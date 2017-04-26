@@ -50,3 +50,8 @@ node-webkit 0.8.6. To do this for node-hid for example:
 
 The binary components will then be rebuilt. This seems to require Xcode
 be installed to build on Mac, not just apple's terminal build tools.
+
+######Acknowledgments 
+"Dualshock 4 Layout" design by Tokyoship of Wikimedia Commons, licensed under Creative Commons By Attributation 3.0, modified by Bluebie to be more easily puppeted. All modifications to this image are released under the same license. Original image: http://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg#mediaviewer/File:Dualshock_4_Layout.svg
+
+DualShock HID Parser by ehd (github) aka @evilhackerdude (twitter), released under MIT license. This work is the basis of the sony_controller.coffee local module, which is also made available under MIT license, as well as any other project licenses.
