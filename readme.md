@@ -57,4 +57,4 @@ Acknowledgments
 DualShock HID Parser by ehd (github) aka @evilhackerdude (twitter), released under MIT license. This work is the basis of the sony_controller.coffee local module, which is also made available under MIT license, as well as any other project licenses.
 
 
-
+<iframe data-aa='498465' src='//ad.a-ads.com/498465?size=120x60&background_color=000000&text_color=ffffff&title_color=000aff&title_hover_color=ff0000&link_color=000aff' scrolling='no' style='width:120px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
