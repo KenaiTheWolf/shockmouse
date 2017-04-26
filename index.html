@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Shockmouse by The-Wolf312</title>
+    <link rel="stylesheet" href="/shockmouse/assets/css/style.css?v=647799e4b95993932ce81c834f25505e34d0f709">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/shockmouse/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/shockmouse/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/The-Wolf312/shockmouse">View On GitHub</a></li>
+          
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Shockmouse</h1>
+          <p>Mac app enabling use of touchpad and buttons on Sony Wireless Controller (DualShock 4) as virtual mouse and keyboard</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/The-Wolf312">The-Wolf312</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p>Very early days here! Here be dragons! Pre-alpha experiments</p>
+
+<p>To run this little experiment, first connect a Sony DualShock4 controller via
+either USB or Bluetooth, then open this folder with node-webkit 0.8.6-osx-ia32.
+The trackpad on the controller should now control your mouse, including tap to
+click and press in button clicking, two finger vertical scrolling, and dragging
+by pressing in the trackpad button.</p>
+
+<p>Todo before first beta release:</p>
+<ul>
+  <li>Improve GUI to be pretty and black themed</li>
+  <li>Checkbox for inverted scrolling</li>
+  <li>Make new gamepad graphic, prerendered images, check redrawing is fast</li>
+  <li>Try to find a way to power down extra sensors over bluetooth when idle</li>
+  <li>Get LED control working over bluetooth, or indicate controller state with on screen popup</li>
+</ul>
+
+<p>Ideas/Todo:</p>
+<ul>
+  <li>Squash memory leaks! (progress being made!!)</li>
+  <li>Right click via two finger tap</li>
+  <li>Right click via the options button?</li>
+  <li>Acceleration for mouse, scrolling from system settings? or local settings?</li>
+  <li>Visualize touches on trackpad in UI because it’s cool</li>
+  <li>Figure out why horizontal scrolling doesn’t work in NextEvent
+&lt;3 (COMPLETED) Retrieve and respect inverted scrolling system setting
+&lt;3 (COMPLETED) Key repeat for arrow buttons (menu navigation) from system settings</li>
+  <li>Momentum in scrolling</li>
+  <li>Experiment with mouse cursor momentum</li>
+  <li>Clamp mouse to screen width and height</li>
+  <li>Option to disable tap to click (or use system setting?)
+&lt;3 (COMPLETED) Keyboard mapping of more buttons (enter and escape added, x and o)</li>
+  <li>Custom keyboard mapping?</li>
+  <li>Gamepad text entry the same way Steam Big Picture implements it</li>
+  <li>Analog Stick scrolling option</li>
+  <li>Update mechanism?</li>
+  <li>Trackpad zoom gesture (screen zoom?)
+    <blockquote>
+      <p>http://stackoverflow.com/questions/2487331/is-there-a-way-to-trigger-gesture-events-on-mac-os-x/2489593#2489593</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>Looking for collaborators and contributors, especially ideas around trackpad
+multitouch api design, gesture classifiers and general data massaging to
+improve mapping of finger movements to mouse stuff. I’d also like to talk to
+any interested user interface designers on designing app interface.</p>
+
+<p>=== Building Info ===
+Native extensions (currently ffi, ref, in NodObjC, and node-hid under ds4)
+require rebuilding using nw-gyp (available in npm) to be compatible with
+node-webkit 0.8.6. To do this for node-hid for example:</p>
+
+<p>cd node_modules/ds4/node_modules/node-hid
+  nw-gyp rebuild –target=0.8.6</p>
+
+<p>The binary components will then be rebuilt. This seems to require Xcode
+be installed to build on Mac, not just apple’s terminal build tools.</p>
+
+<p>Acknowledgments 
+“Dualshock 4 Layout” design by Tokyoship of Wikimedia Commons, licensed under Creative Commons By Attributation 3.0, modified by Bluebie to be more easily puppeted. All modifications to this image are released under the same license. Original image: http://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg#mediaviewer/File:Dualshock_4_Layout.svg</p>
+
+<p>DualShock HID Parser by ehd (github) aka @evilhackerdude (twitter), released under MIT license. This work is the basis of the sony_controller.coffee local module, which is also made available under MIT license, as well as any other project licenses.</p>
+
+
+<iframe data-aa="498465" src="//ad.a-ads.com/498465?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0;overflow:hidden" allowtransparency="true"></iframe>
+
+
+
+
+      </section>
+
+    </div>
+
+    
+  </body>
+</html>
