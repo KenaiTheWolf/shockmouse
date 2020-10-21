@@ -1,5 +1,4 @@
-#As of MacOS Catalina (10.15.X) there is no longer a reason to work with this project, and as for color customization, that can be used through the newer steam controller drivers. This repository is now archived. Thanks for any interest it might've generated.
-
+***As of MacOS Catalina (10.15.X) there is no longer a reason to work with this project, and as for color customization, that can be used through the newer steam controller drivers. This repository is now archived. Thanks for any interest it might've generated.***
 Very early days here! Here be dragons! Pre-alpha experiments
 
 To run this little experiment, first connect a Sony DualShock4 controller via
